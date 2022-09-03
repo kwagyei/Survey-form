@@ -1,0 +1,46 @@
+        *,
+         ::after,
+         ::before {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1rem;
+            margin: 0;
+            background-image: url(./resources/background_pic.jpeg);
+            background-color: aqua;
+            height: auto;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        #header-title {
+            text-align: center;
+            font-size: 2rem;
+            color: white;
+        }
+        
+        #description {
+            text-align: center;
+            color: white;
+        }
+        
+        .form-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #survey-form {
+            align-items: center;
+            width: 90vw;
+            height: 90vh;
+            max-height: fit-content;
+            /* border: 1px solid red; */
+            border-radius: 20px;
+            place-content: center;
+            background-color: grey;
+            opacity: 0.4;
+        }
